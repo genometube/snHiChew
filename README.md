@@ -9,3 +9,4 @@ This repository contains all the code that was used to preprocess and analyze sn
 '''markdown
 ![snHiChew] (snHiChew.jpg)
 
+![alt text](https://github.com/genometube/snHiChew/blob/main/snHiChew.jpg?raw=true)

@@ -5,10 +5,19 @@ snHiChew is a noval single-cell sequencing method that combines efficient sticky
 
 This repository contains all the code that was used to preprocess and analyze snHiChew data from raw fastq to the tabular data. At the start of each file, dependencies like essential libraries or fixed paths to software and data files are declared, which are required for the scripts to function properly.
 
+## Workflow
+This workflow performs snHiChew data processing busing bash scripts with HiC-Pro, Cooltools, HiCExplorer, and Higashi encapsulated. 
+Demultiplexing is performed by n-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
+
+![alt text](https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true)
+
 ## Features
 Visualization of TAD melting at single cell 50 kb resolution without any signal imputation
 ![alt text](https://github.com/genometube/snHiChew/blob/main/melting.png?raw=true)
 
-## Workflow
-![alt text](https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true)
+## Publication
+Processed data:
+Source data:
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

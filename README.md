@@ -5,3 +5,7 @@ This repository contains all the code that was used to preprocess and analyze sn
 
 ## Workflow Diagram
 ![snHiChew] (snHiChew.jpg)
+
+'''markdown
+![snHiChew] (snHiChew.jpg)
+

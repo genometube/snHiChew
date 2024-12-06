@@ -9,7 +9,7 @@ This repository contains all the code that was used to preprocess and analyze sn
 This workflow performs snHiChew data processing busing bash scripts with HiC-Pro, Cooltools, HiCExplorer, and Higashi encapsulated. 
 Demultiplexing is performed by n-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
 
-<img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="1000" height="420">
+<img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="800" height="320">
 
 ## Features
 Visualization of TAD melting at single cell 50 kb resolution without any signal imputation

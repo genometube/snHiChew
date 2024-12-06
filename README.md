@@ -10,7 +10,7 @@ This workflow performs snHiChew data analysis using bash scripts with HiC-Pro, C
 
 Demultiplexing raw reads to each barcode is performed by in-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
 
-<img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="600" height="260">
+<img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="600" height="220">
 
 ## Features
 Visualization of TAD melting at single cell 50 kb resolution without signal imputation.

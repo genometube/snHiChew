@@ -12,7 +12,8 @@ Demultiplexing is performed by n-house Python scripts. The multi-thread function
 <img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="600" height="260">
 
 ## Features
-Visualization of TAD melting at single cell 50 kb resolution without any signal imputation
+Visualization of TAD melting at single cell 50 kb resolution without signal imputation.
+
 <img src="https://github.com/genometube/snHiChew/blob/main/melting.png?raw=true" width="300" height="400">
 
 ## Publication

@@ -6,8 +6,9 @@ snHiChew is a noval single-cell sequencing method that combines efficient sticky
 This repository contains all the code that was used to preprocess and analyze snHiChew data from raw fastq to the tabular data. At the start of each file, dependencies like essential libraries or fixed paths to software and data files are declared, which are required for the scripts to function properly.
 
 ## Workflow
-This workflow performs snHiChew data processing busing bash scripts with HiC-Pro, Cooltools, HiCExplorer, and Higashi encapsulated. 
-Demultiplexing is performed by n-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
+This workflow performs snHiChew data analysis using bash scripts with HiC-Pro, Cooltools, HiCExplorer, and Higashi encapsulated.
+
+Demultiplexing raw reads to each barcode is performed by in-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
 
 <img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="600" height="260">
 

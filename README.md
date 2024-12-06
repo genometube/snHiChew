@@ -10,6 +10,7 @@ This workflow performs snHiChew data processing busing bash scripts with HiC-Pro
 Demultiplexing is performed by n-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
 
 ![alt text](https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true)
+<img src="https://github.com/genometube/snHiChew/blob/main/snHiChew.png?raw=true" width="500" height="210">
 
 ## Features
 Visualization of TAD melting at single cell 50 kb resolution without any signal imputation

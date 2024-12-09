@@ -7,8 +7,8 @@
 raw_R1_fq_raw="${proj_dir}/raw_data/${lib_id}/${lane_id}_read_1.fq.gz" # PATH to raw R1 fastq.gz, must be in gz format
 raw_R2_fq_raw="${proj_dir}/raw_data/${lib_id}/${lane_id}_read_2.fq.gz" # PATH to raw R2 fastq.gz, must be in gz format
 
-sample_index1="sample_index1_20240913.csv"
-sample_index2="sample_index2.csv"
+sample_index1="sample_index1_20240913.csv" # 6bp i5 barcode
+sample_index2="sample_index2.csv" # 8bp i7 barcode
 
 top_cell_num="2000" # number of cells to demultiplex, at least few hundreds greater than wet-lab experiment estimates
 sampling_read_num="1000000"  # initial subsampling of raw fastq to identify top XXX cell barcode to demultiplex

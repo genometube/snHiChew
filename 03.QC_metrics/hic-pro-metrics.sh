@@ -1,4 +1,4 @@
-proj_dir=/research/xieyeming1/proj_2024/luomeng_deepSnHichew_20241127
+# proj_dir=/research/xieyeming1/proj_2024/luomeng_deepSnHichew_20241127
 echo ==========START at `date`==========
 bedtools="/research/xieyeming1/software/Miniconda/envs/xieyeming1/bin/bedtools" # path to bedtools, tested on v2.31.1
 gatc_bed="/research/xieyeming1/db/hic_pro_ref/hg19/hg19_gatc.bed" # not required

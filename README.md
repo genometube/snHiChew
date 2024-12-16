@@ -10,20 +10,24 @@ All source data can be found in BioProject: PRJNA1109567
 | NCBI biosample SAMN45546211 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN45546211 | https://drive.google.com/drive/folders/1ep0s-VMBCR0po_w819astXyfCH7SoXje?usp=sharing |
 
 ● snHiChew HEK293T 200 cells
-Source data: NCBI SRA SRR31657844 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657844
-Processed data: https://drive.google.com/drive/folders/1AO8DUoMXpcA5-fv7VxKbSw4E3CE306xR?usp=sharing
+| Source data | Processed data | 
+| --- | --- |
+| NCBI SRA SRR31657844 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657844 | https://drive.google.com/drive/folders/1AO8DUoMXpcA5-fv7VxKbSw4E3CE306xR?usp=sharing |
 
 ● snHiChew GM12878 400 cells
-Source data: NCBI SRA SRR31657843 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657843
-Processed data: https://drive.google.com/drive/folders/1JCeRVXQKgIOiJwU_wucWZZ9QQ4My5HZn?usp=drive_link
+| Source data | Processed data | 
+| --- | --- |
+| NCBI SRA SRR31657843 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657843 | https://drive.google.com/drive/folders/1JCeRVXQKgIOiJwU_wucWZZ9QQ4My5HZn?usp=drive_link |
 
 ● snHiChew HEK293T wild type 1200 cells
-Source data: NCBI biosample SAMN41378974 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN41378974
-Processed data: https://drive.google.com/drive/folders/16J0pTgnh8IMSAIWTiFffMDWsh09O29fB?usp=sharing
+| Source data | Processed data | 
+| --- | --- |
+| NCBI biosample SAMN41378974 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN41378974 | https://drive.google.com/drive/folders/16J0pTgnh8IMSAIWTiFffMDWsh09O29fB?usp=sharing |
 
 ● snHiChew HEK293T CTCF knockdown 1200 cells
-Source data: NCBI biosample SAMN42018263	https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN42018263
-Processed data: https://drive.google.com/drive/folders/1Me_xKag3Ddx8yy8_hhINf4RAJK3FjShb?usp=drive_link
+| Source data | Processed data | 
+| --- | --- |
+| NCBI biosample SAMN42018263	https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN42018263 | https://drive.google.com/drive/folders/1Me_xKag3Ddx8yy8_hhINf4RAJK3FjShb?usp=drive_link |
 
 ## Overview
 snHiChew is a noval single-cell sequencing method that combines efficient sticky-end ligation with post-PCR enrichment using methylation-based selection, addressing key limitations of existing chromatin conformation capture methods. snHiChew demonstrates superior performance with 45-50% valid pair ratios and the ability to generate up to 7.3 million unique valid contacts per cell. The method's scalability and cost-effectiveness make it particularly suitable for large-scale single-cell chromatin conformation studies.

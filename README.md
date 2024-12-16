@@ -4,15 +4,11 @@
 Chen Z, Xie Y, Tan C, Ruan F, Luo M, Zhang C, Guo M, Fang Y, Tang C. High efficient chromatin conformation capture without pre-enrichment (HiChew) in single cells. bioRxiv. 2024:2024-06. https://www.biorxiv.org/content/10.1101/2024.06.25.600609v1.abstract
 All source data can be found in BioProject: PRJNA1109567
 
-● low input bulkHiChew HEK293T 
-| Source data | Processed data | 
-| ------------------------------------------------ | ------------------------------------------------ |
-| NCBI biosample SAMN45546211 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN45546211 | https://drive.google.com/drive/folders/1ep0s-VMBCR0po_w819astXyfCH7SoXje?usp=sharing |
-
-● snHiChew HEK293T 200 cells
-| Source data | Processed data | 
-| ------------------------------------------------ | ------------------------------------------------ |
-| NCBI SRA SRR31657844 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657844 | https://drive.google.com/drive/folders/1AO8DUoMXpcA5-fv7VxKbSw4E3CE306xR?usp=sharing |
+● 
+| sample | Source data | Processed data | 
+| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| low input bulkHiChew HEK293T | NCBI biosample SAMN45546211 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN45546211 | https://drive.google.com/drive/folders/1ep0s-VMBCR0po_w819astXyfCH7SoXje?usp=sharing |
+| snHiChew HEK293T 200 cells | NCBI SRA SRR31657844 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657844 | https://drive.google.com/drive/folders/1AO8DUoMXpcA5-fv7VxKbSw4E3CE306xR?usp=sharing |
 
 ● snHiChew GM12878 400 cells
 | Source data | Processed data | 

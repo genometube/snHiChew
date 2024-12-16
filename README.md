@@ -30,9 +30,6 @@ Visualization of TAD melting at single cell 50 kb resolution without signal impu
 
 <img src="https://github.com/genometube/snHiChew/blob/main/img/melting.png?raw=true" width="600" height="400">
 
-Source data:
-NCBI bioproject PRJNA1109567, https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1109567
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

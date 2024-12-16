@@ -6,12 +6,12 @@ All source data can be found in BioProject: PRJNA1109567
 
 ● low input bulkHiChew HEK293T 
 | Source data | Processed data | 
-| --- | --- |
+| ------------ | ------------ |
 | NCBI biosample SAMN45546211 https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN45546211 | https://drive.google.com/drive/folders/1ep0s-VMBCR0po_w819astXyfCH7SoXje?usp=sharing |
 
 ● snHiChew HEK293T 200 cells
 | Source data | Processed data | 
-| --- | --- |
+| ------------ | ------------ |
 | NCBI SRA SRR31657844 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657844 | https://drive.google.com/drive/folders/1AO8DUoMXpcA5-fv7VxKbSw4E3CE306xR?usp=sharing |
 
 ● snHiChew GM12878 400 cells

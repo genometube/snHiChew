@@ -3,7 +3,7 @@
 ## Citations
 Chen Z, Xie Y, Tan C, Ruan F, Luo M, Zhang C, Guo M, Fang Y, Tang C. High efficient chromatin conformation capture without pre-enrichment (HiChew) in single cells. bioRxiv. 2024:2024-06. https://www.biorxiv.org/content/10.1101/2024.06.25.600609v1.abstract
 
-All source data can be found in BioProject: PRJNA1109567
+All source data can be found in NCBI BioProject: PRJNA1109567
 
 | Key samples | Source data | Processed data | 
 | :--- | :--- | :--- |

@@ -1,5 +1,12 @@
 # snHiChew: High efficient chromatin conformation capture with post-enrichment in single cells
 
+## Publication
+Chen Z, Xie Y, Tan C, Ruan F, Luo M, Zhang C, Guo M, Fang Y, Tang C. High efficient chromatin conformation capture without pre-enrichment (HiChew) in single cells. bioRxiv. 2024:2024-06. https://www.biorxiv.org/content/10.1101/2024.06.25.600609v1.abstract
+
+\. Source data:
+\. Processed data:
+
+
 ## Overview
 snHiChew is a noval single-cell sequencing method that combines efficient sticky-end ligation with post-PCR enrichment using methylation-based selection, addressing key limitations of existing chromatin conformation capture methods. snHiChew demonstrates superior performance with 45-50% valid pair ratios and the ability to generate up to 7.3 million unique valid contacts per cell. The method's scalability and cost-effectiveness make it particularly suitable for large-scale single-cell chromatin conformation studies.
 
@@ -16,9 +23,6 @@ Demultiplexing raw reads to each barcode is performed by in-house Python scripts
 Visualization of TAD melting at single cell 50 kb resolution without signal imputation.
 
 <img src="https://github.com/genometube/snHiChew/blob/main/img/melting.png?raw=true" width="600" height="400">
-
-## Publication
-Processed data:
 
 Source data:
 NCBI bioproject PRJNA1109567, https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1109567

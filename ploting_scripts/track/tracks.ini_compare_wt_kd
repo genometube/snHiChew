@@ -1,0 +1,119 @@
+[x-axis]
+fontsize=10
+
+[scale_bar]
+file_type = scalebar
+title = Scale bar track
+
+[hic]
+file = /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/hichew/hichew_readID_validpair/combined_mcool_stack_bulk/hichew_chr7.cool
+title = WT (ins darkblue line) tad thres 0.05
+colormap = spectral_r
+depth = 1500000
+min_value = 10
+max_value = 150
+transform = log1p
+file_type = hic_matrix
+show_masked_bins = false
+
+[hic]
+file = /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/hichew_ctcfko/hichew_readID_validpair/combined_mcool_stack_bulk/hichew_ctcfko_chr7.cool
+title = kd (ins darkred line) tad thres 0.05
+colormap = spectral_r
+depth = 1500000
+min_value = 10
+max_value = 150
+transform = log1p
+file_type = hic_matrix
+show_masked_bins = false
+
+[bigwig file test]
+file = snHiChew_HEK293Tctcfkd_ins.bw
+# height of the track in cm (optional value)
+height = 4
+title = ins
+min_value = -1
+max_value = 1
+color = darkred
+type = line
+smooth = 3
+
+[bigwig file test]
+file = /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/snHiChew_HEK293Twt/benchmark/stack_ab_ins_loop/track/snHiChew_HEK293Twt_ins.bw
+# height of the track in cm (optional value)
+height = 4
+title = ins
+color = darkblue
+min_value = -1
+max_value = 1
+overlay_previous = share-y
+type = line
+
+[hlines]
+height = 1.5
+y_values = 0
+show_data_range = false
+color = grey
+alpha = 1.0
+line_width = 2.0
+line_style = dashed
+overlay_previous = share-y
+file_type = hlines
+
+[spacer]
+
+[bigwig file test]
+file = CTCFchip_IP_hek_WT_replicate1.dedup.chr7.bw
+# height of the track in cm (optional value)
+height = 4
+title = HEKwt_CTCF ChIP-seq
+min_value = 0
+max_value = 25
+color = grey
+type = line
+color = darkblue
+
+[hlines]
+height = 1.5
+y_values = 0,25
+show_data_range = false
+color = grey
+alpha = 0.5
+line_width = 2.0
+line_style = solid
+overlay_previous = share-y
+file_type = hlines
+
+[spacer]
+
+[bigwig file test]
+file = CTCFchip_IP_hek_KD_replicate1.dedup.chr7.bw
+# height of the track in cm (optional value)
+height = 4
+title = HEKctcfkd_CTCF ChIP-seq
+min_value = 0
+max_value = 25
+color = grey
+type = line
+#overlay_previous = share-y
+color = darkred
+
+[hlines]
+height = 1.5
+y_values = 0,25
+show_data_range = false
+color = grey
+alpha = 0.5
+line_width = 2.0
+line_style = solid
+overlay_previous = share-y
+file_type = hlines
+
+[spacer]
+
+[genes]
+file = /research/xieyeming1/proj_2021/cngb_backup/sz5/archive/genome/hg19/normal_chr_genes.gtf
+height = 4
+title = hg19 gene
+fontsize = 12
+file_type = bed

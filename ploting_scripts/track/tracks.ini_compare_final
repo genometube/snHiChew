@@ -1,0 +1,112 @@
+[x-axis]
+fontsize=10
+
+[hic]
+file = /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/hichew/hichew_readID_validpair/combined_mcool_stack_bulk/hichew_chr7.cool
+title = Threshold 0.01
+colormap = Spectral_r
+depth = 5000000
+min_value = 1
+max_value = 60
+transform = log1p
+file_type = hic_matrix
+show_masked_bins = false
+
+[tads]
+file = snHiChew_HEK293Twt_0.01_domains.bed
+file_type = domains
+border_color = black
+color = none
+overlay_previous = share-y
+
+[hic]
+file = /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/hichew/hichew_readID_validpair/combined_mcool_stack_bulk/hichew_chr7.cool
+title = Threshold 0.05
+colormap = Spectral_r
+depth = 5000000
+min_value = 1
+max_value = 60
+transform = log1p
+file_type = hic_matrix
+show_masked_bins = false
+
+[tads]
+file = snHiChew_HEK293Twt_0.05_domains.bed
+file_type = domains
+border_color = black
+color = none
+overlay_previous = share-y
+
+[bigwig file test]
+file = track/hek293_ctcf_peak.bw
+# height of the track in cm (optional value)
+height = 4
+title = hek293_ctcf ChIP-seq
+# min_value = 0
+# max_value = 30
+color = grey
+
+[bigwig file test]
+file = track/hek293_h3k4me3.bw
+# height of the track in cm (optional value)
+height = 4
+title = hek293_h3k4me3 ChIP-seq
+# min_value = 0
+# max_value = 30
+color = grey
+
+[bigwig file test]
+file = track/hek_h3k27ac.bw
+# height of the track in cm (optional value)
+height = 4
+title = hek_h3k27ac ChIP-seq
+# min_value = 0
+# max_value = 30
+color = grey
+
+[bigwig file test]
+file = track/hek_wt_1.AddRG.Reorder.Sort.bw
+# height of the track in cm (optional value)
+height = 4
+title = hek bulk RNA-seq
+# min_value = 0
+# max_value = 30
+color = grey
+
+[bigwig file test]
+file = track/snHiChew_HEK293Twt_eigen.bw
+# height of the track in cm (optional value)
+height = 4
+title = eigen
+# min_value = 0
+# max_value = 30
+color = grey
+type = line
+smooth = 3
+
+[bigwig file test]
+file = track/snHiChew_HEK293Twt_ins.bw
+# height of the track in cm (optional value)
+height = 4
+title = ins
+color = grey
+min_value = -2
+max_value = 2
+
+[bigwig file test]
+file = track/promoter_293t_chr7_test.bed
+# height of the track in cm (optional value)
+height = 4
+title = promoter
+color = grey
+min_value = -2
+max_value = 2
+file_type = bed
+
+[genes]
+file = /research/xieyeming1/db/attribute_table/hg19_gene_exp/hg19_gene_symbol.bed_
+title = genes
+color = grey
+height = 4
+labels = true
+file_type = bed

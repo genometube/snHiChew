@@ -89,8 +89,8 @@ with open(os.path.abspath(args.out_dir)+ '/top_' + args.top_cell_threshold + '_c
 
 total_demultiplex_count = 0
 for k in demultiplex_count:
-    print("sample_id: "+k)
-    print(demultiplex_count[k])
+    # print("sample_id: "+k)
+    # print(demultiplex_count[k])
     total_demultiplex_count += demultiplex_count[k]
 
 print("total demultiplex read count")

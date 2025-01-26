@@ -27,6 +27,7 @@ This repository contains all the code that was used to preprocess and analyze sn
 ## Instructions for each module
 
 ### 01.Demultiplex
+---
 Copy all files under [01.Demultiplex](https://github.com/genometube/snHiChew/tree/main/01.Demultiplex) module to your directory for demultiplexing. 
 
 Configure the resources for demultiplexing, loaded cell number, file path, and python path in *demultiplex_i5_i7.sh*. And run *demultiplex_i5_i7.sh*.

@@ -19,7 +19,7 @@ snHiChew is a noval single-cell sequencing method that combines efficient sticky
 ## Workflow
 This workflow utilizes bash scripts to perform snHiChew data analysis, incorporating tools such as HiC-Pro, Cooltools, HiCExplorer, and Higashi.
 
-<img src="https://github.com/genometube/snHiChew/blob/main/img/snHiChew.png?raw=true" width="1000" height="350">
+<img src="https://github.com/genometube/snHiChew/blob/main/img/snHiChew.png?raw=true" width="1000" height="400">
 
 ## System requirements and usage
 This repository contains all the code that was used to preprocess and analyze snHiChew data from raw fastq. At the start of each file, dependencies like essential libraries or fixed paths to software (tested version number) and data files are declared, which are required for the scripts to function properly. 

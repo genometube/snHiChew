@@ -173,8 +173,8 @@ with gzip.open(args.R1,'rt') as f1,gzip.open(args.R2,'rt') as f2:
 
 total_demultiplex_count = 0
 for k in demultiplex_count:
-    print(k)
-    print(demultiplex_count[k])
+    # print(k)
+    # print(demultiplex_count[k])
     total_demultiplex_count += demultiplex_count[k]
 
 print("total demultiplex count")

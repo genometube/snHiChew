@@ -46,7 +46,9 @@ Configure the PATH to bedtools, hic pro reference files, and PATH to hic pro res
 
 Configure the PATH to demultiplexed single cell fastq in *parallel.sh*. Then run *parallel.sh*.
 
-To obtain valid cells by knee point detection (R package [kneedle](https://github.com/etam4260/kneedle)), run *rm_empty_cell_auto.sh* with arguments that specified sample_id or project_id, knee1_sensitivity, knee2_sensitivity, and knee1_knee2_interval. Example command: `sh rm_empty_cell_auto.sh snHiChew_HEKwt 1 2 150`
+To obtain valid cells by knee point detection (R package [kneedle](https://github.com/etam4260/kneedle)), run *rm_empty_cell_auto.sh* with arguments that specified sample_id or project_id, knee1_sensitivity, knee2_sensitivity, and knee1_knee2_interval. 
+
+Example command: `sh rm_empty_cell_auto.sh snHiChew_HEKwt 1 2 150`
 
 ### 04.QC_metrics
 Copy all files under [03.QC_metrics](https://github.com/genometube/snHiChew/tree/main/03.QC_metrics) to your directory to run QC for HiC-Pro results.

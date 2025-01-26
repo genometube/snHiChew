@@ -76,6 +76,10 @@ Codes for higashi analysis can be found under [06.Higashi](https://github.com/ge
 
 To annotation the HEK293T cell phase in snHiChew, the HEK293T 2-phase Repli-seq dataset (4DNESSV33VOL, 4DNESH4XLJCW) was obtained from the 4D Nucleome Data Portal. The early/late repli-score ratio for each valid cell was labeled following the repli-seq methods described in the Nature Protocols (PMID: 29599440) and Nagano et al. 2017 (PMID: 28682332).
 
+---
+### Plotting scripts
+All plotting codes for the paper can be found in the folder [plotting_script](https://github.com/genometube/snHiChew/tree/main/ploting_scripts).
+
 ## Demo
 Codes and outputs for snHiChew demo scripts can be found in the folder [demo](https://github.com/genometube/snHiChew/tree/main/demo), which is running on snHiChew GM12878 400 cells datasets, NCBI SRA SRR31657843 https://www.ncbi.nlm.nih.gov/sra/?term=SRR31657843.
 

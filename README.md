@@ -33,11 +33,11 @@ Configure the resources for demultiplexing, loaded cell number, file path, and p
 Demultiplexing raw reads to each barcode is performed by in-house Python scripts *demultiplex_hichew_top_cell.py* and *demultiplex_hichew_multicore_gz.py*. The multi-thread functions are adapted from [*scHicDemultiplex.py*](https://github.com/joachimwolff/scHiCExplorer/blob/master/schicexplorer/scHicDemultiplex.py) in scHiCExplorer (v7). Must be running on a high I/O speed SSD for optimal performance.
 
 ### 02.HiC-Pro
-  Copy all files under [02.HiC-Pro](https://github.com/genometube/snHiChew/tree/main/02.HiC-Pro) module to your directory to run HiC-Pro for each cell.
-  
-  Configure the resources and reference files for HiC-Pro analysis in each cell in *config-hicpro.txt*. To prevent memory errors when processing the full snHiChew dataset, set `JOB_MEM = 20` or higher.
-  
-  Configure the PATH to demultiplexed single cell fastq and PATH to HiC-Pro in *parallel.sh* and *hic-pro-single.sh*. Then run *parallel.sh*.
+    Copy all files under [02.HiC-Pro](https://github.com/genometube/snHiChew/tree/main/02.HiC-Pro) module to your directory to run HiC-Pro for each cell.
+    
+    Configure the resources and reference files for HiC-Pro analysis in each cell in *config-hicpro.txt*. To prevent memory errors when processing the full snHiChew dataset, set `JOB_MEM = 20` or higher.
+    
+    Configure the PATH to demultiplexed single cell fastq and PATH to HiC-Pro in *parallel.sh* and *hic-pro-single.sh*. Then run *parallel.sh*.
 
 ### 03.QC_metrics
   Copy all files under [03.QC_metrics](https://github.com/genometube/snHiChew/tree/main/03.QC_metrics) module to your directory to run QC for HiC-Pro results.

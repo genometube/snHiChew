@@ -66,7 +66,7 @@ Copy all files under [05.Melting_analysis](https://github.com/genometube/snHiChe
 
 ---
 ### 06.Higashi
-Codes for higashi analysis can be found under [06.Higashi](https://github.com/genometube/snHiChew/tree/main/06.Higashi). [Higashi](https://github.com/ma-compbio/Higashi) with standard settings were employed for dimensionality reduction calculations.
+Codes for higashi analysis can be found under [06.Higashi](https://github.com/genometube/snHiChew/tree/main/06.Higashi). Dimensionality reduction were performed by [Higashi](https://github.com/ma-compbio/Higashi) with standard settings.
 
 To annotation the HEK293T cell phase in snHiChew, the HEK293T 2-phase Repli-seq dataset (4DNESSV33VOL, 4DNESH4XLJCW) was obtained from the 4D Nucleome Data Portal. The early/late repli-score ratio for each cell was labeled following the methods described in Nature Protocols (PMID: 29599440).
 

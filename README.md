@@ -26,7 +26,10 @@ This repository contains all the code that was used to preprocess and analyze sn
 
 ## Instructions for each module
 ### 01.Demultiplex
-Copy all files under [01.Demultiplex](https://github.com/genometube/snHiChew/tree/main/01.Demultiplex) to your directory for demultiplexing. Then configure the resources for demultiplexing, loaded cell number, file path, and python path in demultiplex_i5_i7.sh files.
+Copy all files under [01.Demultiplex](https://github.com/genometube/snHiChew/tree/main/01.Demultiplex) to your directory for demultiplexing. 
+
+Then configure the resources for demultiplexing, loaded cell number, file path, and python path in demultiplex_i5_i7.sh files.
+
 Demultiplexing raw reads to each barcode is performed by in-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
 
 

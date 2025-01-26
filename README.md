@@ -26,21 +26,21 @@ This repository contains all the code that was used to preprocess and analyze sn
 
 ## Instructions for each module
 ### 01.Demultiplex
-Copy all files under [01.Demultiplex](https://github.com/genometube/snHiChew/tree/main/01.Demultiplex) to your directory for demultiplexing. 
+Copy all files under [01.Demultiplex](https://github.com/genometube/snHiChew/tree/main/01.Demultiplex) module to your directory for demultiplexing. 
 
 Configure the resources for demultiplexing, loaded cell number, file path, and python path in *demultiplex_i5_i7.sh*. And run *demultiplex_i5_i7.sh*.
 
 Demultiplexing raw reads to each barcode is performed by in-house Python scripts *demultiplex_hichew_top_cell.py* and *demultiplex_hichew_multicore_gz.py*. The multi-thread functions are adapted from [*scHicDemultiplex.py*](https://github.com/joachimwolff/scHiCExplorer/blob/master/schicexplorer/scHicDemultiplex.py) in scHiCExplorer (v7). Must be running on a high I/O speed SSD for optimal performance.
 
 ### 02.HiC-Pro
-Copy all files under [02.HiC-Pro](https://github.com/genometube/snHiChew/tree/main/02.HiC-Pro) to your directory to run HiC-Pro for each cell.
+Copy all files under [02.HiC-Pro](https://github.com/genometube/snHiChew/tree/main/02.HiC-Pro) module to your directory to run HiC-Pro for each cell.
 
 Configure the resources and reference files for HiC-Pro analysis in each cell in *config-hicpro.txt*. To prevent memory errors when processing the full snHiChew dataset, set `JOB_MEM = 20` or higher.
 
 Configure the PATH to demultiplexed single cell fastq and PATH to HiC-Pro in *parallel.sh* and *hic-pro-single.sh*. Then run *parallel.sh*.
 
 ### 03.QC_metrics
-Copy all files under [03.QC_metrics](https://github.com/genometube/snHiChew/tree/main/03.QC_metrics) to your directory to run QC for HiC-Pro results.
+Copy all files under [03.QC_metrics](https://github.com/genometube/snHiChew/tree/main/03.QC_metrics) module to your directory to run QC for HiC-Pro results.
 
 Configure the PATH to bedtools, hic pro reference files, and PATH to hic pro results in *hic-pro-metrics.sh*.
 
@@ -50,8 +50,17 @@ To obtain valid cells by knee point detection (R package [kneedle](https://githu
 
 Example command: `sh rm_empty_cell_auto.sh snHiChew_HEKwt 1 2 150`
 
-### 04.QC_metrics
-Copy all files under [03.QC_metrics](https://github.com/genometube/snHiChew/tree/main/03.QC_metrics) to your directory to run QC for HiC-Pro results.
+### 04.Pseudo_bulk
+Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
+Configure the compartment bin size and PATH to cooltools in *cooltools-gc.sh*. Then run *cooltools-gc.sh* to create reference-track for cooltools call-compartments.
+
+To generate pooled contacts of snHiChew in `.hic` and `.mcool` format, configure the PATH to softwares dependencies and files listed in *stack_ab_ins_loop.sh*.
+
+### 04.Pseudo_bulk
+Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
+
+### 04.Pseudo_bulk
+Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
 
 ## Demo
 

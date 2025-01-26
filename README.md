@@ -30,7 +30,7 @@ Copy all files under [01.Demultiplex](https://github.com/genometube/snHiChew/tre
 
 Then configure the resources for demultiplexing, loaded cell number, file path, and python path in demultiplex_i5_i7.sh files.
 
-Demultiplexing raw reads to each barcode is performed by in-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
+Demultiplexing raw reads to each barcode is performed by in-house Python scripts *demultiplex_hichew_top_cell.py* and *demultiplex_hichew_multicore_gz.py*. The multi-thread functions are adapted from [*scHicDemultiplex.py*](https://github.com/joachimwolff/scHiCExplorer/blob/master/schicexplorer/scHicDemultiplex.py) in scHiCExplorer (v7). Must be running on a high I/O speed SSD for optimal performance.
 
 
 ## Demo

@@ -70,7 +70,6 @@ Codes for higashi analysis can be found under [06.Higashi](https://github.com/ge
 
 To annotation the HEK293T cell phase in snHiChew, the HEK293T 2-phase Repli-seq dataset (4DNESSV33VOL, 4DNESH4XLJCW) was obtained from the 4D Nucleome Data Portal. The early/late repli-score ratio for each cell was labeled following the methods described in Nature Protocols (PMID: 29599440).
 
----
 ## Demo
 
 ## Features

@@ -62,7 +62,7 @@ with gzip.open(args.R1,'rt') as f1,gzip.open(args.R2,'rt') as f2:
         if line_count >= int(args.sampling_read_number) * 4:
             break
         if line_count % 4 == 0:
-            read_id = line1.strip()[1:29]
+            read_id = line1.strip().split()[0]
         if line_count % 4 == 1:
             seq = line1.strip()+line2.strip()
             sample_index1, i7index = seq[200:206], seq[210:218]
@@ -88,8 +88,8 @@ with open(os.path.abspath(args.out_dir)+ '/top_' + args.top_cell_threshold + '_c
 
 total_demultiplex_count = 0
 for k in demultiplex_count:
-    print("sample_id: "+k)
-    print(demultiplex_count[k])
+    #print("sample_id: "+k)
+    #print(demultiplex_count[k])
     total_demultiplex_count += demultiplex_count[k]
 
 print("total demultiplex read count")

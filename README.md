@@ -54,13 +54,15 @@ Example command: `sh rm_empty_cell_auto.sh snHiChew_HEKwt 1 2 150`
 Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
 Configure the compartment bin size and PATH to cooltools in *cooltools-gc.sh*. Then run *cooltools-gc.sh* to create reference-track for cooltools call-compartments.
 
-To generate pooled contacts in `.hic` and `.mcool` format, configure the PATH to softwares dependencies and files listed in *stack_ab_ins_loop.sh*.
+To generate pooled contacts in `.hic` and `.mcool` format, configure the PATH to softwares dependencies and files listed in *stack_ab_ins_loop.sh*. Then run *stack_ab_ins_loop.sh*.
 
-### 04.Pseudo_bulk
-Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
+### 05.Melting_analysis
+Copy all files under [05.Melting_analysis](https://github.com/genometube/snHiChew/tree/main/05.Melting_analysis) module to your directory.
 
-### 04.Pseudo_bulk
-Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
+### 06.Higashi
+Codes for higashi analysis can be found under [06.Higashi](https://github.com/genometube/snHiChew/tree/main/06.Higashi). [Higashi](https://github.com/ma-compbio/Higashi) with standard settings were employed for dimensionality reduction calculations.
+
+To annotation the HEK293T cell phase in snHiChew, the HEK293T 2-phase Repli-seq dataset (4DNESSV33VOL, 4DNESH4XLJCW) was obtained from the 4D Nucleome Data Portal. The early/late repli-score ratio for each cell was labeled following the methods described in Nature Protocols (PMID: 29599440).
 
 ## Demo
 

@@ -22,7 +22,9 @@ This workflow utilizes bash scripts to perform snHiChew data analysis, incorpora
 <img src="https://github.com/genometube/snHiChew/blob/main/img/snHiChew.png?raw=true" width="600" height="250">
 
 ## System requirements and usage
-This repository contains all the code that was used to preprocess and analyze snHiChew data from raw fastq. At the start of each file, dependencies like essential libraries or fixed paths to software (tested version number) and data files are declared, which are required for the scripts to function properly. Demultiplexing raw reads to each barcode is performed by in-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
+This repository contains all the code that was used to preprocess and analyze snHiChew data from raw fastq. At the start of each file, dependencies like essential libraries or fixed paths to software (tested version number) and data files are declared, which are required for the scripts to function properly. 
+
+Demultiplexing raw reads to each barcode is performed by in-house Python scripts. The multi-thread functions are adapted from scHicDemultiplex.py in scHiCExplorer. Must be running on a high I/O speed SSD for optimal performance.
 
 ## Demo
 

@@ -6,10 +6,10 @@ hicpro2juicebox="/research/xieyeming1/software/hic_pro/hic_pro_3.1.0/HiC-Pro_3.1
 export PATH=$PATH:/research/zhangchen/software/anaconda3/envs/liwenqing/bin
 source /research/zhangchen/software/anaconda3/bin/activate liwenqing
 export PATH=$PATH:/research/xieyeming1/software/pairix/pairix-master/bin
+cooltools="/research/zhangchen/software/anaconda3/envs/liwenqing/bin/cooltools"
 
 sample="snHiChew_400cellgm12878_20240930"
 hic_pro_metrics="/research/xieyeming1/proj_2023/zhichao_snHiChew400cellgm12878_20240930/hic_pro_metrics_sum/240923_M004_V350286856_L01_CWHPE24090158-N1/hic_pro_metrics.xls"
-cooltools="/research/zhangchen/software/anaconda3/envs/liwenqing/bin/cooltools"
 compartment_bin=500000
 gc_bin="/research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/hichew/compartment_tad/hg19.${compartment_bin}_bin.gc"
 hic_pro_dir="/research/xieyeming1/proj_2023/zhichao_snHiChew400cellgm12878_20240930/hic_pro/240923_M004_V350286856_L01_CWHPE24090158-N1"

@@ -54,7 +54,7 @@ Example command: `sh rm_empty_cell_auto.sh snHiChew_HEKwt 1 2 150`
 Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.
 Configure the compartment bin size and PATH to cooltools in *cooltools-gc.sh*. Then run *cooltools-gc.sh* to create reference-track for cooltools call-compartments.
 
-To generate pooled contacts of snHiChew in `.hic` and `.mcool` format, configure the PATH to softwares dependencies and files listed in *stack_ab_ins_loop.sh*.
+To generate pooled contacts in `.hic` and `.mcool` format, configure the PATH to softwares dependencies and files listed in *stack_ab_ins_loop.sh*.
 
 ### 04.Pseudo_bulk
 Copy all files under [04.Pseudo_bulk](https://github.com/genometube/snHiChew/tree/main/04.Pseudo_bulk) module to your directory.

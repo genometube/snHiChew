@@ -63,7 +63,7 @@ To generate pooled contacts in `.hic` and `.mcool` format, configure the PATH to
 ---
 ### 05.Melting_analysis
 Copy all files under [05.Melting_analysis](https://github.com/genometube/snHiChew/tree/main/05.Melting_analysis) module to your directory.
-SubTAD melting was observed when unique validpair is above at least 250k for each cell. To analyze single cell chromatin contact at 50k bin resolution, valid snHiChew cells were first downsampled to the same number of non-duplicate valid pairs and converted to mcools using Cooltools to call TAD-separation score (scripts in [validpair_downsample_mcool](https://github.com/genometube/snHiChew/tree/main/05.Melting_analysis/validpair_downsample_mcool). 
+SubTAD melting was observed when unique validpair is above at least 250k for each cell. To analyze single cell chromatin contact at 50k bin resolution, valid snHiChew cells were first downsampled to the same number of unique valid pairs and converted to mcools using Cooltools to call TAD-separation score (scripts in [validpair_downsample_mcool](https://github.com/genometube/snHiChew/tree/main/05.Melting_analysis/validpair_downsample_mcool)). 
 
 The melting and concretion cell clusters were obtained by clustering on single cell TAD-separation score. Hierarchical clustering (ward.D or ward.D2) was performed on the scaled single-cell TAD-separation score for each 50k genomic bin in the region of interest, which can be found in the plotting_scripts folder [FINAL_ins_downsample_multi_median_split_wardD_20250110.R](https://github.com/genometube/snHiChew/blob/main/ploting_scripts/single_cell_compare/validpair_downsample/cpd/FINAL_ins_downsample_multi_median_split_wardD_20250110.R).
 

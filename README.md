@@ -35,11 +35,7 @@ Demultiplexing raw reads to each barcode is performed by in-house Python scripts
 ### 02.HiC-Pro
 Copy all files under [02.HiC-Pro](https://github.com/genometube/snHiChew/tree/main/02.HiC-Pro) to your directory to run HiC-Pro for each cell.
 
-Then configure the resources and reference files for HiC-Pro analysis in each cell in *config-hicpro.txt*. To prevent memory errors when processing the full snHiChew dataset, set 
-'''
-JOB_MEM = 20
-''' 
-or higher.
+Then configure the resources and reference files for HiC-Pro analysis in each cell in *config-hicpro.txt*. To prevent memory errors when processing the full snHiChew dataset, set `JOB_MEM = 20` or higher.
 
 
 ## Demo

@@ -125,9 +125,7 @@ with gzip.open(args.R1,'rt') as f1,gzip.open(args.R2,'rt') as f2:
 
     for line1,line2 in zip(f1,f2):
         if count % 4 == 0:
-            if line1.strip()[1:29] != line2.strip()[1:29]:
-                print('readID from R1 not equal to readID from R2')
-            read_id = line1.strip()[1:29]
+            read_id = line1.strip().split()[0]
         if count % 4 == 1:
             seq = line1.strip()+line2.strip()
             sample_index1, i7index = seq[200:206], seq[210:218]
@@ -172,8 +170,8 @@ with gzip.open(args.R1,'rt') as f1,gzip.open(args.R2,'rt') as f2:
 
 total_demultiplex_count = 0
 for k in demultiplex_count:
-    print(k)
-    print(demultiplex_count[k])
+    # print(k)
+    # print(demultiplex_count[k])
     total_demultiplex_count += demultiplex_count[k]
 
 print("total demultiplex count")

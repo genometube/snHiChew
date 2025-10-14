@@ -23,11 +23,10 @@ Major concerns:
 Minor points:
 
 ·         It would be nice to have a bit more data on the loop calling for HiChew compared to DipC/HiC. Are the loops called largely shared between the methods. What is the breakdown of loops in terms of Enh-prom, Enh-CTCF, prom-CTCF etc? Is this consistent with Dip-C?
-
-
+<br>`combine fq, run hic_pro, /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/bulkHiChew_5k_500_50/raw_data` <br>
+<br>`R intersect E-P, E-C, P-C, loop bin, /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/bulk_biotin_hic/HEK293T/hic_pro/bulkHiC_HEK293T/outdir/hic_results/matrix/bulkHiC_HEK293T/iced/5000 `<br>
 
 ·         The authors convincingly demonstrate HiChew’s improved performance in terms of valid pair ratio (compared to Dip-C) and complexity compared to more classic enrichment based Hi-C approaches. However, in all 3 application experiments (B compartment melting, CTCF depletion, and chromatin conformation in spermatocytes) I fail to see what biological insight HiChew uncovers compared to Dip-C or enrichment based HiC? Is the resolution better? Are the cell numbers going into these experiments lower? It would be good if this was clear, either in a figure or in the text.
-
 
 
 ·         Many recent Hi-C and Micro-C protocols employ double crosslinking (e.g., DSG + formaldehyde; see Oksuz et al., Nat Methods 2021), which reduces spurious trans interactions. Could the authors comment on whether such an approach has been tested in HiChew?

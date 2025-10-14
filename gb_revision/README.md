@@ -7,7 +7,7 @@ Overall, this work is impressive, combining a novel enrichment strategy with com
 ### Major concerns:
 
 ·         The CTCF experiments and its relationship to melting are really interesting but I'm not sure about the validity of using the heterozygous knockout cell line.  Have the authors considered validating these findings with an acute depletion system (e.g., dTAG or siRNA)? If not feasible, further justification for the choice of model would be important. This leads onto my next points.
-<br>  *wet lab data to show siRNA is not efficient* <br> 
+<br> ` *wet lab data to show siRNA is not efficient* `<br> 
 
 ·         Can we see the raw genome browser tracks of the CTCF ChIP-seq at selected peaks where it is claimed the signal is lower? The meta-plot is a good sanity check, but to be more convinced I would like to see some representative examples. Furthermore, given it’s quite a subtle altercation, were spike-in controls used?
 <br> `Fig 4a label CTCF ChIP-seq WT/KD fold change and move to bottom` <br>
@@ -36,7 +36,7 @@ Overall, this work is impressive, combining a novel enrichment strategy with com
 <br> `sat curve bulk hichew vs pcr, 5k, 500, 50 /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/bulkHiChew_5k_500_50/` <br>
 
 ·         The correlation between digestion efficiency and valid pair ratio makes sense in the context of the dam methylase. Does the 16h tested represent full digestion of the chromatin or could the time be extended further yielding even better valid pair ratios? Many 3C methods now utilise a qPCR based estimation of digestion efficiency (see Downes et al, Nature protocols, 2022) – this may help with optimising new cell types in the future.
-<br>  *explain with wet lab data?* <br> 
+<br> ` *explain with wet lab data?* `<br> 
 
 ·         CNTNAP2 expression is said to be 1.5 fold increased on line 402, but 2 fold increased on line 417 – is this a different RNA-seq data set?  Please clarify.
 <br> `cntnap2 1.5 fold is bulk RNA exp, 2 fold is single cell RNA exp` <br>

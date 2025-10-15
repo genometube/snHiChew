@@ -85,7 +85,9 @@ This study from Chen, Xie et al. present a new method for single-cell 3D genome 
 ### Major comments:
 The authors uses HiC-Pro to characterize read pairs between Dip-C and HiChew (Ext. Fig. 1). To the best of my knowledge, HiC-Pro uses restriction enzyme cut site to characterize read pairs, and if reads align to two different restriction fragments these are characterized as valid pairs. The problem is that this cannot tell if this is a real ligation even or a read that crosses an uncut digestion site. I think that in addition to HiC-Pro, they should also simply quantify what percentage of reads align to the genome either to different chromosomes or greater than an arbitrary threshold (i.e. >1kb or >10kb) as an alternative measure of what fraction of reads are true “contacts”.
 <br>`add hic pro QC of cis_long, cis_short, trans`<br>
+<img src="files/reviewer_3/bulk_QC_metrics.png" width="1500">
 <br>`/research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/bulkHiChew_5k_500_50/hic_pro`<br>
+
 
 The relationship between “melting” and expression is weak. I think to really claim this they would need to do some kind of DNA+nascent RNA FISH to show that the changes in spatial distance at the gene are associated with changes in active transcription. 
 <br>`add fish data`<br>

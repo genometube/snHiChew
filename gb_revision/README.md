@@ -66,6 +66,8 @@ The authors present Hi-Chew, a Hi-C variant that employs DpnII digestion, methyl
 1. The section on melting in B compartments could be improved.
 - The focus on the CNTNAP2 locus is not well motivated, and it is unclear whether this represents a typical region or a cherry-picked example. A more systematic approach would be preferable: analyze all long genes in B compartments, rank them, and then present CNTNAP2 as a top candidate alongside general results.
 - It would also be important to check whether technical artifacts could account for the apparent clustering. For example, do QC metrics have similar distributions between the two clusters?
+<img src="files/reviewer_2/scHiC_compare.png" width="1500">
+
 - At present the analysis considers one gene at a time, but embedding genome-wide contact data into a latent space and testing whether the identified “melting clusters” align with latent space clustering patterns could provide evidence of coordinated states rather than random effects.
 - While the observation of TAD melting is not surprising in itself, the key biological question is how genes in repressive compartments become activated, and the single-cell data should be leveraged more directly to shed light on this.
 <br>`rank gene; melt vs conc QC; melt vs conc 25k counts PCA; ctcf (reviewer 1)`<br>

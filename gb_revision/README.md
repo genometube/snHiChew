@@ -65,10 +65,12 @@ The authors present Hi-Chew, a Hi-C variant that employs DpnII digestion, methyl
 
 1. The section on melting in B compartments could be improved.
 - The focus on the CNTNAP2 locus is not well motivated, and it is unclear whether this represents a typical region or a cherry-picked example. A more systematic approach would be preferable: analyze all long genes in B compartments, rank them, and then present CNTNAP2 as a top candidate alongside general results.
+
 - It would also be important to check whether technical artifacts could account for the apparent clustering. For example, do QC metrics have similar distributions between the two clusters?
 <img src="files/reviewer_2/scHiC_compare.png" width="1500">
 
 - At present the analysis considers one gene at a time, but embedding genome-wide contact data into a latent space and testing whether the identified “melting clusters” align with latent space clustering patterns could provide evidence of coordinated states rather than random effects.
+
 - While the observation of TAD melting is not surprising in itself, the key biological question is how genes in repressive compartments become activated, and the single-cell data should be leveraged more directly to shed light on this.
 <br>`rank gene; melt vs conc QC; melt vs conc 25k counts PCA; ctcf (reviewer 1)`<br>
 
@@ -76,7 +78,8 @@ The authors present Hi-Chew, a Hi-C variant that employs DpnII digestion, methyl
 <br> `rewrite` <br>
 
 3. Figure presentation could also be improved. Figure 5c is difficult to interpret with the current color choices, and colors that are more easily distinguished should be used. The observation of different interaction distance distributions is potentially interesting, but to establish its significance the authors should demonstrate consistency across independent biological replicates.
-<br>`plot fig5c, two replicates adjust color /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/snHiChew_testis/benchmark`<br>
+<img src="files/reviewer_2/testis_clust_distance_decay_4_sample.png" width="400"><img src="files/reviewer_2/testis_clust_distance_decay_4_sample2.png" width="400">
+<br>`plot fig5c, two replicates, adjusted to default color for better visualization /research/xieyeming1/proj_2023/hichew_paper_20230710/scHiC_benchmark/snHiChew_testis/benchmark`<br>
 
 4. The testis cell type analysis would be strengthened by examining whether genes expressed in the respective cell types show compartment switching in the expected direction. This type of association is often observed and would provide an important cross-check.
 <br>`the diploid to haploid transformation may not correlated with gene expression`<br>
@@ -100,7 +103,10 @@ The word “melting” to me is vague and imprecise. Chromatin isn’t literally
 <br> `rewrite` <br>
 
 How are the single-cell clustering analysis performed? For Figures 3c, 4b, and 4g, is this done on the local insulation scores shown in the figure? This is fine, but the issue to me is that some of the differences appear to be driven by the insulation scores in the adjacent A compartment regions (148Mb-152Mb).
-<br> `cluster by ins in ROI; show the melting in 145-148 alone in suppl` <br>
+<br> `fig 4g already shows the clustering of hekWT cells by local insulation score in 145M-148M` <br>
+<br> `/research/xieyeming1/proj_2023/hichew_paper_20230710/hichew_NM_resubmit_figs/code/ploting_scripts/long_gene_melting/final_hekWT/example_region_chr7` <br>
+<img src="files/reviewer_3/validpair_downsample_sc_ins_cell_145813453_148118090.png" width="300">
+
 
 ### Minor comments:
 In the introduction, the authors write: “However, biotin enrichment resulted in significant DNA loss, most likely due to inefficient biotin incorporation or loss of biotin binding”. They cite Belton et al 2012 here to justify this statement. This seems odd. First, the Belton paper was written in 2012 before the first single-cell Hi-C experiments were published, so it is not really the right source for a statement regarding single-cell Hi-C. Second, I don’t think that failure of biotin incorporation or binding is the problem for single cell, it is much more that the blunt end ligations are very inefficient. At the very least, it isn’t well demonstrated here what the limitations of biotin incorporation really are here, so I don’t think this sentence is really appropriate.
